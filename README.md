@@ -1,1 +1,1 @@
-# TestNG_Kurs
+Test NG kurs documents were uploaded to Git.
