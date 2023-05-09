@@ -1,0 +1,9 @@
+<suite name="Suite-1" >         <!-- Paralel calismasini saglayan buradaki parallel ve thread count kismi  -->
+    <test name="test-1">
+        <parameter name="searchedProduct" value="ipod"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="_05_SomeAdditionalTopics._05_WishList"></class>
+        </classes>
+    </test>
+</suite>

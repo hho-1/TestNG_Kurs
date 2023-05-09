@@ -1,0 +1,22 @@
+<suite name="Suite-1">      <!-- Tüm kisimlari kapsayan bölum  -->
+
+    <test name="test-1">    <!-- Test-1'i kapsayan bölum  -->
+
+        <groups>
+            <run>
+                <include name = "Regression"></include>           <!--Sadece gruplardan regression olanlari calistir demek-->
+            </run>
+        </groups>
+
+        <classes>           <!-- Calisacak kisimlari kapsayan bölum  -->
+
+            <class name="_02_dependency_sonrasi._04_GroupsXML"></class>     <!-- Dahil olacak classlari buradan söylüyoruz  -->
+                <methods>
+                    <exclude name = "Test4"></exclude>       <!--Test4'ü haric birak, calistirma demek, ama yine de calistiriyor. Sebebini anlamadim-->
+                </methods>
+
+        </classes>
+
+    </test>
+
+</suite>

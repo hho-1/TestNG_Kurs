@@ -1,0 +1,30 @@
+<suite name="Suite-1" parallel="tests" thread-count="2">         <!-- Paralel calismasini saglayan buradaki parallel ve thread count kismi  -->
+    <test name="test-1">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="arananKelime" value="mac"></parameter>
+        <classes>
+            <class name="_03_OpenqaWebsiteTest._04_SearchFunctionality"></class>
+        </classes>
+    </test>
+    <test name="test-2">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="arananKelime" value="samsung"></parameter>
+        <classes>
+            <class name="_03_OpenqaWebsiteTest._04_SearchFunctionality"></class>
+        </classes>
+    </test>
+    <test name="test-3">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="arananKelime" value="canon"></parameter>
+        <classes>
+            <class name="_03_OpenqaWebsiteTest._04_SearchFunctionality"></class>   <!-- Bu sekilde yapinca ana kodu hic degistirmeden sadece buradaki degisikliklerle farkli isimlerde urunleri arayip test edebiliriz. -->
+        </classes>
+    </test>
+    <test name="test-4">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="arananKelime" value="iphone"></parameter>
+        <classes>
+            <class name="_03_OpenqaWebsiteTest._04_SearchFunctionality"></class>
+        </classes>
+    </test>
+</suite>

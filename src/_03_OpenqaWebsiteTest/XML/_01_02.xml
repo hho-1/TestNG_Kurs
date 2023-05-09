@@ -1,0 +1,13 @@
+<suite name="Suite-1">
+    <test name="test-1">
+        <parameter name="enquiry" value="Siparisim elime gelmedi. 363524 numarali siparisi kontrol eder misiniz?"></parameter>  <!-- Bu satir daha yukarda ya da asagida olabilir, no problem -->
+        <classes>
+            <class name="_03_OpenqaWebsiteTest._01_ContactUs"></class>                              <!-- Hatta burada classin icinde dahi olabilir -->
+        </classes>
+    </test>
+    <test name="test-2">
+        <classes>
+            <class name="_03_OpenqaWebsiteTest._02_Specials"></class>
+        </classes>
+    </test>
+</suite>

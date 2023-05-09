@@ -1,0 +1,24 @@
+<suite name="Suite-1">      <!-- Tüm kisimlari kapsayan bölum  -->
+
+    <test name="test-1">    <!-- Test-1'i kapsayan bölum  -->
+
+        <classes>           <!-- Calisacak kisimlari kapsayan bölum  -->
+
+            <class name="_02_dependency_sonrasi._03_Annotations"></class>     <!-- Dosyayi buradan da calistirabilirsin  -->
+
+        </classes>
+
+    </test>
+
+    <test name="test-2">    <!-- Test-1'i kapsayan bölum  -->
+
+        <classes>           <!-- Calisacak kisimlari kapsayan bölum  -->
+
+            <!-- Dosyayi buradan da calistirabilirsin  -->
+            <class name="_02_dependency_sonrasi._02_AddressFunctionality"></class>
+
+        </classes>
+
+    </test>
+
+</suite>

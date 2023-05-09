@@ -1,0 +1,19 @@
+<suite name="Suite-1">      <!-- Tüm kisimlari kapsayan bölum  -->
+
+    <test name="test-1">    <!-- Test-1'i kapsayan bölum  -->
+
+        <groups>
+            <run>
+                <exclude name = "SmokeTest"></exclude>          <!-- gruplardan SmokeTest harici hepsini calistir demek. Grubu olmayan bile calisir bu durumda-->
+            </run>
+        </groups>
+
+        <classes>           <!-- Calisacak kisimlari kapsayan bölum  -->
+
+            <class name="_02_dependency_sonrasi._04_GroupsXML"></class>     <!-- Dosyayi buradan da calistirabilirsin  -->
+
+        </classes>
+
+    </test>
+
+</suite>

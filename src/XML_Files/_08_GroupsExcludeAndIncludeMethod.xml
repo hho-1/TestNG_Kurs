@@ -1,0 +1,24 @@
+  <suite name="Suite-1">      <!-- Tüm kisimlari kapsayan bölum  -->
+
+    <test name="test-1">    <!-- Test-1'i kapsayan bölum  -->
+
+        <groups>
+            <run>
+                <include name = "SmokeTest"></include>           <!--Sadece gruplardan SmokeTest olanlari calistir demek-->
+            </run>
+        </groups>
+
+        <classes>           <!-- Calisacak kisimlari kapsayan bölum  -->
+
+            <class name="_02_dependency_sonrasi._04_GroupsXML">
+                <methods>
+                    <exclude name="test5"></exclude>              <!-- SmokeTest olsa bile test5'i calistirma demek bu -->
+                    <include name = "test4"></include>            <!-- test4 regression testi olmasina ragmen bu durumda calisacak -->
+                </methods>
+            </class>     <!-- Dosyayi buradan da calistirabilirsin  -->
+
+        </classes>
+
+    </test>
+
+</suite>
